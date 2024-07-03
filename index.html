@@ -1,0 +1,88 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyJSPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <section class="nav-head">
+        <section class="nav-list">
+          <a href="index.html"><b>HOME</b></a>
+          <a href="#redirect-about"><b>ABOUT</b></a>
+          <a href="#redirect-projects"><b>PROJECTS</b></a>
+          <a href="#redirect-contact"><b>CONTACT</b></a>
+        </section>
+      </section>
+      <section class="background-img-1">
+        <img src="bcg-img-1.jpg"></img>
+          <div class="overlay">
+            <h1>Aashi Tandon</h1>
+            <p>Masters in Computer Applications (MCA) Candidate</p>
+          </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="aboutMe" id="redirect-about">
+        <img src="bcg-img-2.jpg"></img>
+          <div class="overlay-2">
+            <h1>About me</h1>
+            <p>I am a college student pursuing MCA from Amrapali University, Haldwani, Uttarakhand</p>
+            <hr width="90%">
+            <h2>SKILLS</h2>
+            <ul type="none">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>C</li>
+              <li>JAVA</li>
+            </ul>
+            <hr width="90%">
+            <p>I am passionate about learning new skills and enhancing my knowledge. I always look forward to opportunities that allow me to showcase my creativity.</p>
+          </div>
+      </section>
+      <section class="projects" id="redirect-projects">
+        <div class="project-container">
+          <img src="picture3.jpg">
+          <div class="project-links">
+            <h2>MY PROJECTS</h2>
+            <section class="project-button">
+              <section class="E-Commerce">
+                <input type="button" value="E-Commerce Website GitHub" onclick="openGitHub('https://github.com/AashiTandon/E-commerce-website')">
+                <input type="button" value="E-Commerce Website Open Project" onclick="openProject('https://aashitandon.github.io/E-commerce-website/')">
+              </section>
+              <section class="Amazon-clone">
+                <input type="button" value="Amazon clone GitHub" onclick="openGitHub('https://github.com/AashiTandon/Amazon-homepage-clone')">
+                <input type="button" value="Amazon Clone Open Project " onclick="openProject('https://aashitandon.github.io/Amazon-homepage-clone/')">
+              </section>
+              <section class="My-Resume">
+                <input type="button" value="My Resume GitHub" onclick="openGitHub('https://github.com/AashiTandon/AashiTandon-Resume')">
+                <input type="button" value="My Resume Open Project" onclick="openProject('https://aashitandon.github.io/AashiTandon-Resume/')">
+              </section>
+              <section class="Tic-Tac-Toe">
+                <input type="button" value="Tic Tac Toe GitHub" onclick="openGitHub('https://github.com/AashiTandon/tic-tac-toe')">
+                <input type="button" value="Tic Tac Toe Open Project" onclick="openProject('https://aashitandon.github.io/tic-tac-toe/')">
+              </section>
+            </section>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contact" id="redirect-contact">
+        <a href="mailto:tandon.aashi2002@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/AashiTandon"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/aashi-tandon-87bab21b7/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p>Created by Aashi Tandon</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
